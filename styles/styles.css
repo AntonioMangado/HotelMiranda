@@ -1,0 +1,37 @@
+html, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 1.3rem;
+  font-family: "Archivo", sans-serif;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1607843137);
+}
+.nav__name {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+.nav__name div span {
+  display: block;
+}
+.nav__logo {
+  display: inline-block;
+  padding: 0.5rem;
+  box-shadow: 0 14px 24px 0 rgba(139, 139, 139, 0.3137254902);
+  margin: 0 0.6rem 0 2rem;
+}
+.nav__icons i:nth-of-type(1) {
+  margin-right: 1rem;
+}/*# sourceMappingURL=styles.css.map */

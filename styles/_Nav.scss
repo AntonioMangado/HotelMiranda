@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 1.3rem;
+    font-family: "Archivo", sans-serif;
+    box-shadow: 0 3px 6px 0 #00000029;
+
+
+    &__burger-menu {
+    }
+
+    &__name {
+        display: inline-flex;
+        align-items: center;
+        font-size: 0.9rem;
+        letter-spacing: 0.1rem;
+
+        div {
+            span {
+                display: block;
+            }
+        }
+    }
+
+    &__logo {
+        display: inline-block;
+        padding: 0.5rem;
+        box-shadow: 0 14px 24px 0 #8b8b8b50;
+        margin: 0 0.6rem 0 2rem;
+    }
+
+    &__icons {
+        i {
+            &:nth-of-type(1) {
+                margin-right: 1rem;
+            }
+        }
+    }
+        
+}
