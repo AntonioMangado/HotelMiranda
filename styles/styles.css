@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 html, * {
   box-sizing: border-box;
   margin: 0;
@@ -6,16 +7,22 @@ html, * {
 
 body {
   min-width: 320px;
+  font-family: "Archivo", sans-serif;
+}
+
+section#navbar {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1607843137);
+  width: 100%;
 }
 
 .nav {
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
   padding: 1rem 1.3rem;
-  font-family: "Archivo", sans-serif;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1607843137);
+  max-width: 1000px;
+  position: relative;
 }
 .nav__name {
   display: inline-flex;
@@ -34,4 +41,25 @@ body {
 }
 .nav__icons i:nth-of-type(1) {
   margin-right: 1rem;
+}
+.nav__links {
+  width: 100vw;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  background-color: white;
+  padding: 1.5rem 1.3rem;
+  z-index: -100;
+  opacity: 0;
+  pointer-events: none;
+}
+.nav__links a {
+  display: block;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav__links a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
