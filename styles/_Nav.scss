@@ -1,15 +1,16 @@
+section#navbar {
+    box-shadow: 0 3px 6px 0 #00000029;
+    width: 100%;
+}
+
 .nav {
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     padding: 1rem 1.3rem;
-    font-family: "Archivo", sans-serif;
-    box-shadow: 0 3px 6px 0 #00000029;
-
-
-    &__burger-menu {
-    }
+    max-width: 1000px;
+    position: relative;
 
     &__name {
         display: inline-flex;
@@ -38,5 +39,28 @@
             }
         }
     }
-        
+
+    &__links {
+        width: 100vw;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        background-color: white;
+        padding: 1.5rem 1.3rem;
+        z-index: -100;
+        opacity: 0;
+        pointer-events: none;
+
+        a {
+            display: block;
+            margin-bottom: 1.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 }
