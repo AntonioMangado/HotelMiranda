@@ -199,6 +199,9 @@ section#navbar {
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
+.about-us__assets > div.luxury-room {
+  margin-bottom: 3.75rem;
+}
 .about-us__assets > div.luxury-room div:nth-of-type(2) {
   background-color: #000000;
   color: #ffffff;
@@ -211,4 +214,65 @@ section#navbar {
   display: block;
   z-index: 100;
   top: unset;
+}
+
+.rooms .section-title, .rooms h2 {
+  text-align: center;
+}
+.rooms .slider {
+  width: 100vw;
+  position: relative;
+  text-align: center;
+}
+.rooms .slider__icons {
+  padding: 0.75rem 1.5rem;
+  display: inline-flex;
+  gap: 1rem;
+  justify-content: center;
+  z-index: 100;
+  position: relative;
+  background-color: white;
+}
+.rooms .slider__icons i {
+  width: 1rem;
+}
+.rooms .slider__buttons-image {
+  position: relative;
+}
+.rooms .slider__buttons-image .buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.rooms .slider__buttons-image .buttons button {
+  padding: 0.7rem 1rem;
+}
+.rooms .slider__description {
+  padding: 1.2rem 1.5rem;
+  display: inline-block;
+  width: 80%;
+  position: relative;
+  margin-top: -1.5rem;
+  z-index: 100;
+  background-color: white;
+}
+.rooms .slider__description p {
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1.3rem;
+}
+.rooms .slider__description span {
+  color: #BEAD8E;
+}
+.rooms .slider__description span.price {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.rooms .slider img {
+  width: 100%;
+  margin-top: -1rem;
 }/*# sourceMappingURL=styles.css.map */
