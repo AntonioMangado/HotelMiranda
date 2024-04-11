@@ -548,6 +548,14 @@ section#navbar {
   margin-bottom: 3.75rem;
 }
 
+.restaurant__content {
+  padding: 1rem 1.25rem 4.375rem;
+}
+.restaurant__content img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
 .footer {
   background-color: #f8f8f8;
 }
