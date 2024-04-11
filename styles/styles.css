@@ -360,4 +360,35 @@ section#navbar {
 .menu__buttons button {
   padding: 0.7rem 1rem;
   margin-left: 1rem;
+}
+
+.stats {
+  background-color: #000000;
+  color: #ffffff;
+}
+.stats__container {
+  text-align: center;
+  padding: 3rem 0;
+}
+.stats__item {
+  text-align: center;
+}
+.stats__item:not(.last) {
+  margin-bottom: 3.75rem;
+}
+.stats__item i {
+  color: #bead8e;
+  font-size: 6rem;
+  margin-bottom: 1rem;
+}
+.stats__item .figure {
+  font-size: 3.75rem;
+  font-weight: 700;
+}
+.stats__item .figure span {
+  font-size: 1rem;
+}
+.stats__item .footnote {
+  color: #999999;
+  font-size: 1rem;
 }/*# sourceMappingURL=styles.css.map */
