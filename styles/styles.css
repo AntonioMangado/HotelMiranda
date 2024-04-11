@@ -362,6 +362,10 @@ section#navbar {
   margin-bottom: 2.25rem;
 }
 
+.facilities--dark {
+  background-color: #000000;
+  color: #ffffff;
+}
 .facilities__info {
   padding: 3.75rem 1.5rem;
 }
@@ -382,6 +386,9 @@ section#navbar {
   position: absolute;
   top: -107px;
   right: 0;
+}
+.facilities__info .icons span.--dark {
+  color: #292929;
 }
 .facilities__info .icons i {
   font-size: 5em;
@@ -554,6 +561,40 @@ section#navbar {
 .restaurant__content img {
   width: 100%;
   margin-bottom: 2rem;
+}
+
+.counter__content {
+  padding: 3.75rem 1.25rem;
+}
+.counter__content img {
+  width: 100%;
+  height: auto;
+}
+.counter__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.counter__card i:first-of-type {
+  color: #bead82;
+  font-size: 4rem;
+}
+.counter__card i:last-of-type {
+  font-size: 2rem;
+  color: #dcdcdc;
+}
+.counter__card div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.counter__card div span:first-of-type {
+  font-family: "Old Standard TT", serif;
+  font-size: 3.75rem;
+}
+.counter__card div:last-of-type {
+  flex: 1;
 }
 
 .footer {
