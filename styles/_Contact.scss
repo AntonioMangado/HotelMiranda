@@ -53,4 +53,53 @@
             }
         }
     }
+
+    &__services {
+        margin-bottom: 2rem;
+
+        &__container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;       
+        }
+    }
+
+    &__contact-us {
+        h3 {
+            text-align: start;
+        }
+
+        &__card {
+            display: flex;
+            font-family: "Old Standard TT", serif;
+            align-items: center;
+            gap: 1.375rem;
+
+            i {
+                font-size: 2.5rem;
+                color: #bead8e;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                .card-title {
+                    font-size: 1.25rem;
+                    font-weight: 400;
+                    color: #222222;
+                }
+
+                .card-info {
+                    font-size: 0.875rem;
+                    font-family: "Roboto", sans-serif;
+                    color: #777777; 
+                }
+            }
+
+            &:not(.address) {
+                margin-bottom: 3.75rem;
+            }
+        }
+    }
 }
