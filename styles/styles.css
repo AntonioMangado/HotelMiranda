@@ -479,4 +479,29 @@ section#navbar {
 }
 .contact__contact-us__card:not(.address) {
   margin-bottom: 3.75rem;
+}
+
+.footer {
+  background-color: #f8f8f8;
+}
+.footer footer {
+  padding: 1rem 1.25rem;
+  font-weight: 700;
+}
+.footer footer .copyright {
+  margin-bottom: 1.5rem;
+}
+.footer footer .tos {
+  margin-right: 0.5rem;
+}
+.footer footer .policy {
+  margin-left: 0.5rem;
+}
+.footer footer a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer footer a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
