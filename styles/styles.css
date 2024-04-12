@@ -894,6 +894,92 @@ section#navbar {
   padding-bottom: 1.75rem;
 }
 
+.contact-details__content {
+  padding: 2rem 1.25rem;
+}
+.contact-details__item {
+  display: flex;
+  gap: 1.625rem;
+  padding: 0 12px 52px;
+  position: relative;
+  counter-increment: number;
+  margin-bottom: 1rem;
+  margin-bottom: 52px;
+}
+.contact-details__item::after {
+  content: counter(number, decimal-leading-zero);
+  position: absolute;
+  top: -45px;
+  right: 0;
+  font-size: 12.5rem;
+  font-weight: 700;
+  color: rgb(248, 248, 248);
+  z-index: -100;
+}
+.contact-details__item i {
+  color: #bead8e;
+  font-size: 3rem;
+}
+.contact-details__item div h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-family: "Old Standard TT", serif;
+}
+.contact-details__item div p {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form {
+  margin-bottom: 3.75rem;
+}
+.contact-form__content {
+  padding: 0 1.25rem;
+}
+.contact-form__content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+.contact-form__content form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form__content form input, .contact-form__content form textarea {
+  margin-bottom: 1rem;
+  padding: 1.5rem 1.25rem 1.5rem 3rem;
+  background-color: rgb(248, 248, 248);
+  border: none;
+  outline: none;
+  background-position: 18px 23px;
+  background-repeat: no-repeat;
+}
+.contact-form__content form input::-moz-placeholder, .contact-form__content form textarea::-moz-placeholder {
+  color: rgb(119, 119, 119);
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.contact-form__content form input::placeholder, .contact-form__content form textarea::placeholder {
+  color: rgb(119, 119, 119);
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.contact-form__content form input#full-name {
+  background-image: url(/assets/images/user-icon.svg.svg);
+}
+.contact-form__content form input#phone {
+  background-image: url(/assets/images/phone-icon.svg.svg);
+}
+.contact-form__content form input#email {
+  background-image: url(/assets/images/email-icon.svg.svg);
+}
+.contact-form__content form input#subject {
+  background-image: url(/assets/images/book-icon.svg.svg);
+}
+.contact-form__content form textarea#comments {
+  background-image: url(/assets/images/pencil-icon.svg.svg);
+}
+
 .footer {
   background-color: #f8f8f8;
 }
