@@ -1,0 +1,52 @@
+.room-list {
+    &__content {
+        padding: 0 1.25rem;
+        text-align: center;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__item {
+        margin-bottom: 3.25rem;
+    }
+
+    &__icons {
+        padding: 0.75rem 1.5rem;
+        display: inline-flex;
+        gap: 1rem;
+        justify-content: center;
+        z-index: 100;
+        position: relative;
+        background-color: white;
+        margin-top: -12px;
+        margin-bottom: 1.75rem;
+
+        i {
+            width: 1rem;
+        } 
+    }
+
+    .section-description {
+        margin-bottom: 1rem;
+    }
+
+    &__rate {
+        font-weight: 700;
+        display: flex;
+        gap: 1.25rem;
+        justify-content: center;
+
+        span {
+            &:first-of-type {
+                color: #bead8e;
+            }
+
+            &:last-of-type {
+                color: #bdbdbd;
+            }
+        }
+    }
+}

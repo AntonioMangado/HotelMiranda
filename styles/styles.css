@@ -597,6 +597,47 @@ section#navbar {
   flex: 1;
 }
 
+.room-list__content {
+  padding: 0 1.25rem;
+  text-align: center;
+}
+.room-list__content img {
+  width: 100%;
+  height: auto;
+}
+.room-list__item {
+  margin-bottom: 3.25rem;
+}
+.room-list__icons {
+  padding: 0.75rem 1.5rem;
+  display: inline-flex;
+  gap: 1rem;
+  justify-content: center;
+  z-index: 100;
+  position: relative;
+  background-color: white;
+  margin-top: -12px;
+  margin-bottom: 1.75rem;
+}
+.room-list__icons i {
+  width: 1rem;
+}
+.room-list .section-description {
+  margin-bottom: 1rem;
+}
+.room-list__rate {
+  font-weight: 700;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+}
+.room-list__rate span:first-of-type {
+  color: #bead8e;
+}
+.room-list__rate span:last-of-type {
+  color: #bdbdbd;
+}
+
 .footer {
   background-color: #f8f8f8;
 }
