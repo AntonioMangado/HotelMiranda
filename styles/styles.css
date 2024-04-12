@@ -638,6 +638,79 @@ section#navbar {
   color: #bdbdbd;
 }
 
+.room-details__content {
+  padding: 0 1.25rem;
+}
+.room-details__content .section-title {
+  margin-bottom: 0.75rem;
+}
+.room-details__content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+.room-details__content .rate {
+  margin-bottom: 1rem;
+}
+.room-details__content .rate span {
+  color: #BEAD8E;
+}
+.room-details__content .rate span.price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.room-details__availability {
+  padding: 1.625rem 1rem;
+}
+.room-details__availability .title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.25rem;
+}
+.room-details__availability label {
+  margin-bottom: 0.8rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  display: block;
+}
+.room-details__availability input {
+  padding: 1.5rem 1.875rem;
+  font-size: 0.875rem;
+  border: none;
+  outline: none;
+  background-color: #f8f8f8;
+  color: #777;
+  margin-bottom: 1.275rem;
+  width: 100%;
+}
+.room-details__availability button {
+  width: 100%;
+}
+
+.amenities__content {
+  padding: 2rem 1.25rem;
+}
+.amenities__content h3 {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 0.9rem;
+}
+.amenities__list {
+  display: grid;
+  grid-template-columns: repeat(2, 0.9fr);
+}
+.amenities__list article {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.amenities__list article i {
+  color: #bead8e;
+}
+.amenities__list article p {
+  font-weight: 500;
+}
+
 .footer {
   background-color: #f8f8f8;
 }
