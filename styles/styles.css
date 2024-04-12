@@ -786,6 +786,114 @@ section#navbar {
   padding-bottom: 0.9rem;
 }
 
+.offers__content {
+  padding: 0 1.25rem;
+}
+.offers__item {
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
+}
+.offers__img {
+  position: relative;
+}
+.offers__img img {
+  width: 100%;
+  height: auto;
+}
+.offers__img p {
+  position: absolute;
+  font-weight: 700;
+}
+.offers__img p span:last-of-type {
+  font-size: 0.7rem;
+}
+.offers__img p.crossed-price {
+  bottom: 4rem;
+  right: 1rem;
+  color: #bead8e;
+  text-decoration: line-through;
+}
+.offers__img p.crossed-price span:first-of-type {
+  font-size: 1.5rem;
+}
+.offers__img p.actual-price {
+  bottom: 1rem;
+  right: 1rem;
+  color: #de5777;
+}
+.offers__img p.actual-price span:first-of-type {
+  font-size: 1.875rem;
+}
+.offers__description {
+  padding: 1rem 0.5rem 1rem 1.25rem;
+}
+.offers__description .section-title {
+  margin-bottom: 0.75rem;
+}
+.offers__description h3 {
+  font-size: 2.5rem;
+}
+.offers__description .equipment {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1.5rem;
+}
+.offers__description .equipment article {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.offers__description .equipment article i {
+  color: #bead8e;
+}
+.offers__description .equipment article p {
+  font-weight: 500;
+}
+
+.popular-rooms {
+  background-color: #000;
+  color: #fff;
+  margin: 4rem 0;
+}
+.popular-rooms__content {
+  padding: 3.5rem 1.25rem 4.5rem;
+}
+.popular-rooms__content .section-title {
+  text-align: center;
+}
+.popular-rooms__slider {
+  text-align: center;
+  position: relative;
+}
+.popular-rooms__slider img {
+  width: 95%;
+  height: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+  display: inline-block;
+}
+.popular-rooms__slider .buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.popular-rooms__slider .buttons button {
+  padding: 0.7rem 1rem;
+}
+.popular-rooms__info {
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  width: 95%;
+  margin: -3px auto;
+  padding-bottom: 1.75rem;
+}
+
 .footer {
   background-color: #f8f8f8;
 }
