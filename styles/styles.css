@@ -601,12 +601,33 @@ section#navbar {
   padding: 0 1.25rem;
   text-align: center;
 }
+.room-list__content h3 {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 0.9rem;
+}
 .room-list__content img {
   width: 100%;
   height: auto;
 }
 .room-list__item {
   margin-bottom: 3.25rem;
+}
+.room-list__slider {
+  position: relative;
+}
+.room-list__slider img {
+  width: 95%;
+}
+.room-list__slider .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.room-list__slider .buttons button {
+  padding: 0.7rem 1rem;
 }
 .room-list__icons {
   padding: 0.75rem 1.5rem;
@@ -636,6 +657,133 @@ section#navbar {
 }
 .room-list__rate span:last-of-type {
   color: #bdbdbd;
+}
+
+.room-details__content {
+  padding: 0 1.25rem;
+}
+.room-details__content .section-title {
+  margin-bottom: 0.75rem;
+}
+.room-details__content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+.room-details__content .rate {
+  margin-bottom: 1rem;
+}
+.room-details__content .rate span {
+  color: #BEAD8E;
+}
+.room-details__content .rate span.price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.room-details__availability {
+  padding: 1.625rem 1rem;
+}
+.room-details__availability .title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.25rem;
+}
+.room-details__availability label {
+  margin-bottom: 0.8rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  display: block;
+}
+.room-details__availability input {
+  padding: 1.5rem 1.875rem;
+  font-size: 0.875rem;
+  border: none;
+  outline: none;
+  background-color: #f8f8f8;
+  color: #777;
+  margin-bottom: 1.275rem;
+  width: 100%;
+}
+.room-details__availability button {
+  width: 100%;
+}
+
+.amenities__content {
+  padding: 2rem 1.25rem;
+}
+.amenities__content h3 {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 0.9rem;
+}
+.amenities__list {
+  display: grid;
+  grid-template-columns: repeat(2, 0.9fr);
+}
+.amenities__list article {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.amenities__list article i {
+  color: #bead8e;
+}
+.amenities__list article p {
+  font-weight: 500;
+}
+
+.founder__content {
+  padding: 2.5rem 1.625rem;
+}
+.founder__content .section-title {
+  color: #bead8e;
+  text-align: center;
+}
+.founder__content .section-description {
+  text-align: center;
+}
+.founder__profile-pic {
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto 2.375rem;
+  position: relative;
+}
+.founder__profile-pic img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.founder__profile-pic div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.founder__profile-pic div i {
+  background-color: #bead8e;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cancellation__content {
+  padding: 1rem 1.5rem;
+}
+.cancellation__content h3 {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 0.9rem;
 }
 
 .footer {
