@@ -791,6 +791,7 @@ section#navbar {
 }
 .offers__item {
   margin-bottom: 1.5rem;
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1);
 }
 .offers__img {
   position: relative;
@@ -847,6 +848,50 @@ section#navbar {
 }
 .offers__description .equipment article p {
   font-weight: 500;
+}
+
+.popular-rooms {
+  background-color: #000;
+  color: #fff;
+  margin: 4rem 0;
+}
+.popular-rooms__content {
+  padding: 3.5rem 1.25rem 4.5rem;
+}
+.popular-rooms__content .section-title {
+  text-align: center;
+}
+.popular-rooms__slider {
+  text-align: center;
+  position: relative;
+}
+.popular-rooms__slider img {
+  width: 95%;
+  height: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+  display: inline-block;
+}
+.popular-rooms__slider .buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.popular-rooms__slider .buttons button {
+  padding: 0.7rem 1rem;
+}
+.popular-rooms__info {
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  width: 95%;
+  margin: -3px auto;
+  padding-bottom: 1.75rem;
 }
 
 .footer {
